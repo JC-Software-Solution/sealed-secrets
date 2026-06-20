@@ -1,4 +1,4 @@
-﻿---
+---
 apiVersion: bitnami.com/v1alpha1
 kind: SealedSecret
 metadata:
@@ -11,5 +11,5 @@ spec:
     DB_USERNAME: AgCo1x72pIoU1JoGvYQmIwi5KoCfhY5goPvC46M3ifNa8qa5D5wj4qh/iiuZ7R0EHkJhQJI4M1fR9YsJrlwrQNpyz5ecodrBu6wziLQGo8bfkzg+7zwZMu3F5DswI99Y1tAKczdeKgVllfbh03S5UUFvykxLjVvgJR2Oc6ZsAq2zrl2QMSVnQZb6JsBOQTxdAstuEchhQTol+rrk4vlXfyQPiHOrK80wR3GYT5LLWQTf9op5LaKy0grqph1MgwQhyo2x4irfHdk3VRhsaWcvylA8eIvumqxe9NXTlqlxJmFJt8IiL7s42/DBohGCiaFxmKet+iZd8EQG+IjV0eWrXI04+KrKSTqBeBrrz6irpTP7Pp39SXDf8fxl8WftPZqIDl4jB27KvMpMnODV2uXeONGZQiLH7YC+IxeyUc0tbLxj7WrSUcIK0Zwi5qFlqa7U1V305yuqJr6up05dsawLCspR0yDI5PZH+KvOjtjmhLeZB0cvY2/kH2TXFPCWyNoblbYzZ+YZRXXlpKvMlFIMVHUmr0y7dFn2XN5DMP/bROKh7UMs+8jzlRxgC0EZWvFmxbzOA/tUNL7ayyPVXiF/xRSwhBWy0bxlkirK0c6Jpp6I/bXjpa7FruOJ/eqNc7PM3YCzpmlCVhZZOXQKvYrIlqp4+TSez2y67PXUQKhP8+EgRHRo6XZEO52h0bc5PmhoU7gkCe8vIBTItMniM8vyow0JVOhb9PE=
   template:
     metadata:
-      name: auth-service
+      name: auth-service-secret
       namespace: motoshop
